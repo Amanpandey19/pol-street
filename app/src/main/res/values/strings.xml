@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">PolStreet</string>
+    <string name="splash_app_name">Pol-street</string>
+    <string name="lorem">Lorem ipsum dolor sir amet consectetur</string>
+    <string name="termsAndConditions"><u>Terms and Conditions</u></string>
+
+    <string name="Agree">By proceeding, I agree to the </string>
+    <string name="enter_your_mobile_number">Enter your Mobile number</string>
+    <string name="we_will_send_an_sms_with_a_verification_code_on_this_number">We will send an sms with a verification code on this number.</string>
+    <string name="_10_digit_number">10-digit number</string>
+    <string name="verify_number">Verify Number</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="todo">TODO</string>
+    <string name="edit">Edit</string>
+    <string name="_91_9783282828">+91 9783282828</string>
+    <string name="please_enter_the_4_digit_otp_sent_to">Please enter the 4-digit OTP sent to</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="didn_t_receive_otp_resend_otp_in_58_secs">Didn\'t receive OTP? Resend OTP in 58 secs</string>
+    <string name="verifying">Verifying</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sample_bet_text">Will BJP Cross 200 Seats in 2024 Lok Sabha Elections?</string>
+    <string name="sample_bet_text2">Who will win the Lok Sabha Election from Saharanpur in 2024?</string>
+    <string name="elections">Elections</string>
+    <string name="events">Events</string>
+    <string name="participating_bets">Participating Bets</string>
+    <string name="welcome_back">Welcome back,</string>
+    <string name="sample_name">Sample Name</string>
+    <string name="total_wallet_balance">Total Wallet Balance</string>
+    <string name="u20b9_4_246_00">₹ 4,246.00</string>
+    <string name="total_win">Total win</string>
+    <string name="total_spent">Total Spent</string>
+    <string name="u20b9_112_00">₹ 112.00</string>
+    <string name="popular_on_polstreet">Popular on Polstreet</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="bet_now">Bet Now</string>
+    <string name="by_polls">By Polls</string>
+    <string name="survey">Survey</string>
+    <string name="login">Login</string>
+    <string name="add_money">Add Money</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="winnings">Winnings</string>
+    <string name="_0">₹ 0</string>
+    <string name="cash_bonus">Cash Bonus</string>
+    <string name="_453_00">₹ 453.00</string>
+    <string name="accounts">Accounts</string>
+    <string name="profile">Profile</string>
+    <string name="sample1">Sample1</string>
+    <string name="user_name">User Name</string>
+    <string name="number">Number</string>
+    <string name="save_changes">Save changes</string>
+    <string name="email">email</string>
+    <string name="sample_name_xyz">Sample name xyz</string>
+    <string name="amount_payable">amount payable</string>
+    <string name="_200_00">₹ 200.00</string>
+    <string name="select_payment_options">Select Payment Options</string>
+    <string name="upi">UPI</string>
+    <string name="google_pay">Google Pay</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="verify">Verify</string>
+
+
+</resources>

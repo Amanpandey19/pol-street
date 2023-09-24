@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet_dialog_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Add New card"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/close_bottom_sheet"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                app:srcCompat="@drawable/baseline_close_24"
+                android:padding="5dp"
+                app:strokeWidth="1dp"
+                android:layout_alignParentEnd="true"
+                android:clickable="true"
+                app:strokeColor="@color/black"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+                />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Card Number"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:hint="Enter 12 digit Card Number"
+            android:textColorHint="@color/clicked_grey"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@color/black"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="12dp"
+            android:layout_height="50dp">
+        </EditText>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="left"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Valid Till"/>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/custom_input"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/month_tv"
+                        android:layout_width="wrap_content"
+                        android:hint="Month"
+                        android:textSize="14sp"
+                        android:layout_marginVertical="7dp"
+                        android:fontFamily="@font/poppins_light"
+                        android:layout_marginStart="15dp"
+                        android:layout_height="wrap_content"/>
+                    <Spinner
+                        android:id="@+id/monthSpinner"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="left"
+                    android:textColor="#FAFAFA"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Valid Till"/>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/custom_input"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/year_tv"
+                        android:layout_width="wrap_content"
+                        android:hint="Year"
+                        android:textSize="14sp"
+                        android:layout_marginVertical="7dp"
+                        android:fontFamily="@font/poppins_light"
+                        android:layout_marginStart="15dp"
+                        android:layout_height="wrap_content"/>
+                    <Spinner
+                        android:id="@+id/yearSpinner"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="left"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="CVV"/>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    app:passwordToggleEnabled="true"
+                    app:boxStrokeWidth="0dp"
+                    app:hintEnabled="false"
+                    app:boxStrokeWidthFocused="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="5dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:hint="CVV"
+                        android:textColorHint="@color/clicked_grey"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:textSize="14sp"
+                        android:layout_marginBottom="0dp"
+                        android:maxLength="3"
+                        android:inputType="textPassword"
+                        app:passwordToggleEnabled="true"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="0dp"
+                        android:textColor="@color/black"
+                        android:background="@drawable/custom_input"
+                        android:drawablePadding="0dp"
+                        android:layout_height="wrap_content">
+                    </EditText>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Card Holder's Name"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:hint="Name on Card"
+            android:textColorHint="@color/clicked_grey"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@color/black"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="12dp"
+            android:layout_height="50dp">
+        </EditText>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add_money_btn"
+            android:background="@drawable/save_changes_btn_selector"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/poppins_light"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:text="Save Card and Proceed"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

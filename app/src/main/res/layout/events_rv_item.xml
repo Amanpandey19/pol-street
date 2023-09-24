@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:id="@+id/events_list_item_img"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="@drawable/events_item1"
+    android:layout_height="wrap_content"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/events_list_item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_light"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/survey"/>
+
+        <TextView
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="@string/bet_now"
+            android:gravity="end"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="13sp"
+            android:background="@drawable/bet_now_bg"
+            android:layout_height="wrap_content"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</RelativeLayout>

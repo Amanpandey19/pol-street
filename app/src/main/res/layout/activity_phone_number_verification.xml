@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home.PhoneNumberVerificationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/phoneverification"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="OTP Verification"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="Enter the OTP sent to "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="+91 986 753 6212"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et1_otp"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:textSize="25sp"
+                android:inputType="number"
+                android:maxLength="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textCursorDrawable="@null"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_light"/>
+
+            <EditText
+                android:id="@+id/et2_otp"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:textSize="25sp"
+                android:inputType="number"
+                android:maxLength="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textCursorDrawable="@null"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:backgroundTint="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_light"/>
+
+            <EditText
+                android:id="@+id/et3_otp"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:textSize="25sp"
+                android:inputType="number"
+                android:maxLength="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textCursorDrawable="@null"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/black"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_light"/>
+
+            <EditText
+                android:id="@+id/et4_otp"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:textSize="25sp"
+                android:inputType="number"
+                android:maxLength="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textCursorDrawable="@null"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/black"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_light"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="Didn't receive the OTP ? "
+                android:textColor="#B9B9B9"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2743FD"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Resend OTp"/>
+
+        </LinearLayout>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/save_changes_btn_selector"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_light"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:text="@string/verify"/>
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

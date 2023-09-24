@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".home.AboutBetFragment">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="11sp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet consectetur. Id tempus arcu turpis a viverra elit. Volutpat enim sed scelerisque ac id at in eleifend. Non eu arcu lorem cras. Eleifend viverra mi lobortis convallis. Quam sed a vitae hac dui." />
+
+</FrameLayout>

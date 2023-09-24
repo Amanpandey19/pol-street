@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:id="@+id/elections_list_item_img"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="@drawable/elections_item"
+    android:layout_height="wrap_content"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/elections_list_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_light"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/by_polls"/>
+
+    <LinearLayout
+        android:id="@+id/bet_now_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:background="@drawable/bet_now_bg"
+        android:orientation="horizontal"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/bet_now_text"
+            android:layout_width="wrap_content"
+            android:text="@string/bet_now"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:clickable="true"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="14sp"
+            android:foregroundGravity="center"
+            android:drawablePadding="10dp"
+            android:layout_height="wrap_content"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/bet_now_arrow"
+            android:layout_width="wrap_content"
+            android:src="@drawable/baseline_arrow_forward_13"
+            android:layout_gravity="center"
+            android:layout_marginBottom="1dp"
+            android:layout_marginEnd="5dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

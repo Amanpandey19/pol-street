@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recyclerViewItem"
+    android:layout_width="277dp"
+    android:src="@drawable/list_item"
+    android:layout_marginTop="1dp"
+    android:layout_marginEnd="30dp"
+    android:layout_marginStart="0dp"
+    android:layout_height="116dp">
+
+</ImageView>

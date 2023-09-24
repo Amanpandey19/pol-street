@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet_dialog_bg">
+
+    <LinearLayout
+        android:id="@+id/send_verification_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:background="@drawable/email_shape">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/mail"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Email verification"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_light"
+            android:text="send verification link to"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_light"
+            android:text="xyz@gmail.com"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/send_verification_link_btn"
+            android:background="@drawable/save_changes_btn_selector"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/poppins_light"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:text="Send Verification Link"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/link_sent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/checked"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Verification link sent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_light"
+            android:text="Click on the link in your inbox"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_light"
+            android:text="to get verified"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/save_changes_btn_selector"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/close_layout"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/poppins_light"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:text="Close"/>
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

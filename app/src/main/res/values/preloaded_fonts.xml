@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/dm_sans_bold</item>
+        <item>@font/magra</item>
+        <item>@font/montserrat</item>
+        <item>@font/montserrat_bold</item>
+        <item>@font/montserrat_subrayada_bold</item>
+        <item>@font/open_sans_bold</item>
+        <item>@font/open_sans_semibold</item>
+        <item>@font/poppins_light</item>
+        <item>@font/poppins_semibold</item>
+        <item>@font/quattrocento</item>
+        <item>@font/rhodium_libre</item>
+        <item>@font/roboto_medium</item>
+        <item>@font/taviraj_light</item>
+    </array>
+</resources>
